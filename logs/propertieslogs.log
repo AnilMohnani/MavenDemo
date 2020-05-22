@@ -1,0 +1,16 @@
+[INFO ] 2020-03-19 00:59:25.305 [main] LogTest - Driver initialised
+[DEBUG] 2020-03-19 00:59:26.998 [main] LogTest - Browser launched
+[ERROR] 2020-03-19 00:59:27.051 [main] LogTest - error occured
+[WARN ] 2020-03-19 00:59:27.051 [main] LogTest - warning
+[INFO ] 2020-03-19 01:04:02.648 [main] LogTest - Driver initialised
+[DEBUG] 2020-03-19 01:04:04.221 [main] LogTest - Browser launched
+[ERROR] 2020-03-19 01:04:04.234 [main] LogTest - error occured
+[WARN ] 2020-03-19 01:04:04.234 [main] LogTest - warning
+[INFO ] 2020-03-19 01:05:43.859 [main] LogTest - Driver initialised
+[DEBUG] 2020-03-19 01:05:45.400 [main] LogTest - Browser launched
+[ERROR] 2020-03-19 01:05:45.415 [main] LogTest - error occured
+[WARN ] 2020-03-19 01:05:45.415 [main] LogTest - warning
+[INFO ] 2020-03-19 01:06:59.852 [main] LogTest - Driver initialised
+[DEBUG] 2020-03-19 01:07:02.221 [main] LogTest - Browser launched
+[ERROR] 2020-03-19 01:07:02.232 [main] LogTest - error occured
+[WARN ] 2020-03-19 01:07:02.232 [main] LogTest - warning
