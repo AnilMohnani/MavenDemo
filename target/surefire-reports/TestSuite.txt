@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 64.687 s <<< FAILURE! - in TestSuite
+testTitle(testcases.LogTest)  Time elapsed: 3.941 s  <<< FAILURE!
+java.lang.AssertionError: expected [oogle] but found [Google]
+	at testcases.LogTest.testTitle(LogTest.java:31)
+
+titleVerification(testcases.FileUpload)  Time elapsed: 14.83 s  <<< FAILURE!
+java.lang.AssertionError: expected [YouTub] but found [YouTube]
+	at testcases.FileUpload.titleVerification(FileUpload.java:68)
+
+uploadFileTest(testcases.FileUpload)  Time elapsed: 24.538 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: processTask (tried for 20 second(s) with 500 milliseconds interval)
+	at testcases.FileUpload.uploadFileTest(FileUpload.java:38)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#processTask"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BBV4M2VF', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0c4a13634844c976c2a97ea75a64a42
+*** Element info: {Using=id, value=processTask}
+	at testcases.FileUpload.uploadFileTest(FileUpload.java:38)
+

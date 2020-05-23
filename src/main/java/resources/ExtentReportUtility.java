@@ -6,7 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class ExtentReportUtility {
 
 	public static ExtentReports reporting() {
-		String path = System.getProperty("user.dir") + "\\reports\\index.html";
+		String path = System.getProperty("user.dir") + "\\reports\\extent.html";
 		ExtentSparkReporter spark = new ExtentSparkReporter(path);
 		spark.config().setReportName("Test Automation Results");
 		spark.config().setDocumentTitle("Test Execution Result");
