@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Reporter;
 
 public class Base {
 	WebDriver driver;
@@ -39,8 +40,8 @@ public class Base {
 
 		File dest = new File(destPath);
 		FileUtils.copyFile(src, dest);
+		  Reporter.log("<br><img src='"+dest+"' height='300' width='300'/><br>");  
 		return destPath;
-
 	}
 
 	public WebDriver getDriver() {

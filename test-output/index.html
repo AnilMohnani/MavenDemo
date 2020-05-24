@@ -182,10 +182,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-BBV4M2VF&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+System info: host: &apos;LAPTOP-BBV4M2VF&apos;, ip: &apos;192.168.1.101&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4fb4f9c6cd0b3177865571401b1d506f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 286afc88e779c69297ec0c1e6e024c84
 *** Element info: {Using=id, value=processTask}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -319,25 +319,25 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'uploadFileTest')
-data.setCell(0, 2, 'testcases.FileUpload')
-data.setCell(0, 3, 22303);
+data.setCell(0, 1, 'verifyCredentials')
+data.setCell(0, 2, 'testcases.HashMapDemo')
+data.setCell(0, 3, 27392);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testTitle')
-data.setCell(1, 2, 'testcases.LogTest')
-data.setCell(1, 3, 15230);
+data.setCell(1, 1, 'uploadFileTest')
+data.setCell(1, 2, 'testcases.FileUpload')
+data.setCell(1, 3, 27174);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyCredentials')
-data.setCell(2, 2, 'testcases.HashMapDemo')
-data.setCell(2, 3, 11741);
+data.setCell(2, 1, 'testTitle')
+data.setCell(2, 2, 'testcases.LogTest')
+data.setCell(2, 3, 26278);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'titleVerification')
-data.setCell(3, 2, 'testcases.FileUpload')
-data.setCell(3, 3, 10010);
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'testcases.LoginTest')
+data.setCell(3, 3, 20342);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'testcases.LoginTest')
-data.setCell(4, 3, 7191);
+data.setCell(4, 1, 'titleVerification')
+data.setCell(4, 2, 'testcases.FileUpload')
+data.setCell(4, 3, 14976);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -353,6 +353,24 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">uploadFileTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">C:\Users\AnilY\MavenDemo\reports\uploadFileTest.png</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">C:\Users\AnilY\MavenDemo\reports\testTitle.png</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">titleVerification</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">C:\Users\AnilY\MavenDemo\reports\titleVerification.png</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -368,7 +386,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.FileUpload</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.HashMapDemo</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -382,7 +400,7 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.HashMapDemo</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.FileUpload</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -394,7 +412,21 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testTitle</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">9996 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HashMapDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCredentials</span>
+                <span class="method-start">13643 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -403,42 +435,25 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">titleVerification</span>
-                <span class="method-start">6525 ms</span>
+                <span class="method-start">15689 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">8874 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.HashMapDemo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyCredentials</span>
-                <span class="method-start">9390 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.FileUpload</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">17695 ms</span>
+                <span class="method-start">33543 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">22073 ms</span>
+                <span class="method-start">39868 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">uploadFileTest</span>
-                <span class="method-start">28620 ms</span>
+                <span class="method-start">46151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">51432 ms</span>
+                <span class="method-start">73950 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

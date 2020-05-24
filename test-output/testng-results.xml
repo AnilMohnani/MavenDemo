@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[C:\Users\AnilY\MavenDemo\reports\testTitle.png]]>
+    </line>
+    <line>
+      <![CDATA[C:\Users\AnilY\MavenDemo\reports\titleVerification.png]]>
+    </line>
+    <line>
+      <![CDATA[C:\Users\AnilY\MavenDemo\reports\uploadFileTest.png]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-05-23T00:56:35 IST" name="Suite" finished-at="2020-05-23T00:57:30 IST" duration-ms="55581">
+  <suite started-at="2020-05-24T15:56:22 IST" name="Suite" finished-at="2020-05-24T15:57:40 IST" duration-ms="78169">
     <groups>
     </groups>
-    <test started-at="2020-05-23T00:56:35 IST" name="Test" finished-at="2020-05-23T00:57:30 IST" duration-ms="55581">
+    <test started-at="2020-05-24T15:56:22 IST" name="Test" finished-at="2020-05-24T15:57:40 IST" duration-ms="78169">
       <class name="testcases.LogTest">
-        <test-method signature="testTitle()[pri:0, instance:testcases.LogTest@5e8f9e2d]" started-at="2020-05-23T00:56:35 IST" name="testTitle" finished-at="2020-05-23T00:56:50 IST" duration-ms="15230" status="FAIL">
+        <test-method signature="testTitle()[pri:0, instance:testcases.LogTest@5e8f9e2d]" started-at="2020-05-24T15:56:22 IST" name="testTitle" finished-at="2020-05-24T15:56:48 IST" duration-ms="26278" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [oogle] but found [Google]]]>
@@ -39,25 +48,28 @@ at java.base/java.lang.Thread.run(Thread.java:834)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[C:\Users\AnilY\MavenDemo\reports\testTitle.png]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testTitle -->
       </class> <!-- testcases.LogTest -->
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@2ce86164]" started-at="2020-05-23T00:56:35 IST" name="setup" finished-at="2020-05-23T00:56:44 IST" duration-ms="8874" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@2ce86164]" started-at="2020-05-24T15:56:22 IST" name="setup" finished-at="2020-05-24T15:56:32 IST" duration-ms="9994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:testcases.LoginTest@2ce86164]" started-at="2020-05-23T00:56:44 IST" name="loginTest" finished-at="2020-05-23T00:56:51 IST" duration-ms="7191" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:testcases.LoginTest@2ce86164]" started-at="2020-05-24T15:56:32 IST" name="loginTest" finished-at="2020-05-24T15:56:53 IST" duration-ms="20342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- testcases.LoginTest -->
       <class name="testcases.FileUpload">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:56:35 IST" name="setup" finished-at="2020-05-23T00:56:41 IST" duration-ms="6525" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:56:22 IST" name="setup" finished-at="2020-05-24T15:56:38 IST" duration-ms="15689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleVerification()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:56:41 IST" name="titleVerification" finished-at="2020-05-23T00:56:51 IST" duration-ms="10010" status="FAIL">
+        <test-method signature="titleVerification()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:56:38 IST" name="titleVerification" finished-at="2020-05-24T15:56:53 IST" duration-ms="14976" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [YouTub] but found [YouTube]]]>
@@ -89,17 +101,20 @@ at java.base/java.lang.Thread.run(Thread.java:834)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[C:\Users\AnilY\MavenDemo\reports\titleVerification.png]]>
+            </line>
           </reporter-output>
         </test-method> <!-- titleVerification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:56:53 IST" name="teardown" finished-at="2020-05-23T00:56:57 IST" duration-ms="4376" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:56:56 IST" name="teardown" finished-at="2020-05-24T15:57:02 IST" duration-ms="6324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:56:57 IST" name="setup" finished-at="2020-05-23T00:57:03 IST" duration-ms="6546" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:57:02 IST" name="setup" finished-at="2020-05-24T15:57:08 IST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="uploadFileTest()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:57:03 IST" name="uploadFileTest" finished-at="2020-05-23T00:57:26 IST" duration-ms="22303" status="FAIL">
+        <test-method signature="uploadFileTest()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:57:08 IST" name="uploadFileTest" finished-at="2020-05-24T15:57:36 IST" duration-ms="27174" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: processTask (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -128,10 +143,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
   (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-BBV4M2VF', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+System info: host: 'LAPTOP-BBV4M2VF', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 4fb4f9c6cd0b3177865571401b1d506f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 286afc88e779c69297ec0c1e6e024c84
 *** Element info: {Using=id, value=processTask}
 at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,19 +169,22 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
+            <line>
+              <![CDATA[C:\Users\AnilY\MavenDemo\reports\uploadFileTest.png]]>
+            </line>
           </reporter-output>
         </test-method> <!-- uploadFileTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-23T00:57:26 IST" name="teardown" finished-at="2020-05-23T00:57:30 IST" duration-ms="4106" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.FileUpload@51df223b]" started-at="2020-05-24T15:57:36 IST" name="teardown" finished-at="2020-05-24T15:57:40 IST" duration-ms="4138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.FileUpload -->
       <class name="testcases.HashMapDemo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HashMapDemo@fd46303]" started-at="2020-05-23T00:56:35 IST" name="setup" finished-at="2020-05-23T00:56:44 IST" duration-ms="9390" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HashMapDemo@fd46303]" started-at="2020-05-24T15:56:22 IST" name="setup" finished-at="2020-05-24T15:56:36 IST" duration-ms="13643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCredentials()[pri:0, instance:testcases.HashMapDemo@fd46303]" started-at="2020-05-23T00:56:44 IST" name="verifyCredentials" finished-at="2020-05-23T00:56:56 IST" duration-ms="11741" status="PASS">
+        <test-method signature="verifyCredentials()[pri:0, instance:testcases.HashMapDemo@fd46303]" started-at="2020-05-24T15:56:36 IST" name="verifyCredentials" finished-at="2020-05-24T15:57:03 IST" duration-ms="27392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCredentials -->
