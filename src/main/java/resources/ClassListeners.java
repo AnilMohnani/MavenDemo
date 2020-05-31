@@ -46,7 +46,7 @@ public class ClassListeners extends Base implements ITestListener  {
 		try {
 
 			
-			extTest.get().addScreenCaptureFromPath(getScreenPath(result.getMethod().getMethodName(), webDriver),
+			extTest.get().addScreenCaptureFromPath(getScreenPath(result.getMethod().getMethodName(),webDriver),
 					result.getMethod().getMethodName());
 
 		} catch (IOException e) {
